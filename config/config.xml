@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+	
+	<entry key="appUrl">https://www.ryanair.com/</entry>
+	<entry key="gmailUrl">https://www.gmail.com</entry>
+	<entry key="username">root</entry>
+	<entry key="password"></entry>
+	<entry key="accEmail">testjoel.qardio@gmail.com</entry>
+	<entry key="accPswd">VGVzdEAxMjNhYmM=</entry>
+	<entry key="emailID">testjoel.qardio@gmail.com</entry>
+	<entry key="emailpswd">aW5kZWNvbW0xMjM=</entry>
+	
+	
+</properties>

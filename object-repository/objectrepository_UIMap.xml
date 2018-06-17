@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+
+	<entry key="rylogin_xpath">//input[@name='emailAddress']</entry>
+	<entry key="rypswd_xpath">//div[@class='form-field password']//input[starts-with(@id,'password')]</entry>
+	<entry key="sinupbttn_xpath">//li[@id='myryanair-auth-signup']/a/span</entry>
+	<entry key="email_xpath">//div[@class='form-field']/input[@name='email']</entry>
+	<entry key="password_xpath">//div[@class='form-field password']/password-input/input</entry>
+
+	<entry key="updates_xpath">//div[normalize-space(.)='Updates']</entry>
+	<entry key="myRyanairadmin_xpath">//div[@class='yW']/span[normalize-space(.)='myRyanairAdmin']</entry>
+
+	<entry key="gmailemail_id">identifierId</entry>
+	<entry key="nextbttn_id">identifierNext</entry>
+	<entry key="pswdnextbttn_id">passwordNext</entry>
+	<entry key="gmailpswd_xpath">//input[@name='password']</entry>
+	<entry key="sinupbttn_className">core-btn-primary</entry>
+	<entry key="accsingupbttn_xpath">//button[@class='core-btn-primary']</entry>
+	<entry key="succsignup_className">successful-signup</entry>
+	<entry key="verifyemaillink_xpath">//a[contains(@href,'verifyemail')]</entry>
+	<entry key="loginimg_xpath">//li[@id='myryanair-auth-login']</entry>
+	<entry key="avatarusr_xpath">//div[@class='avatar-user']</entry>
+	<entry key="lognname_xpath">//div[@class='avatar-user']/following-sibling::span[contains(text(),'DYNAMIC_VALUE')]</entry>
+	<entry key="logntab_xpath">//div[normalize-space(.)='Log in' and @class='signup-home-tab-carousel-tab selected last-tab']</entry>
+	<entry key="afterlogname_xpath">//div[@class='avatar-user']/following-sibling::span</entry>
+	<entry key="succfulsignup_className">successful-signup</entry>
+	<entry key="plantripmenu_xpath">//a[normalize-space(.)='Plan']</entry>
+	
+	<entry key="exploreitems_xpath">//h3[normalize-space(.)='Explore']/following-sibling::ul</entry>
+	
+	<entry key="onewaytrip_xpath">//input[@type='radio' and @value='one-way']</entry>
+	<entry key="onewaytrip_id">flight-search-type-option-one-way</entry>
+	
+	<entry key="return_xpath">//input[@type='radio' and @value='return']</entry>
+	<entry key="flihts_xpath">//span[@id='tab-flights-text']</entry>
+	<entry key="depatureairport_xpath">//input[@type='text' and @name='departureAirportName']</entry>
+	<entry key="destinationairport_xpath">//input[@type='text' and @placeholder='Destination airport']</entry>
+	<entry key="airportselector_xpath">//input[@type='text' and @aria-labelledby='label-airport-selector-to']</entry>
+	<entry key="flyoutdd_xpath">//input[@type='text' and @aria-label='Fly out: - DD']</entry>
+	<entry key="flyoutmm_xpath">//input[@type='text' and @aria-label='Fly out: - MM']</entry>
+	<entry key="flybackdd_xpath">//input[@type='text' and @aria-label='Fly back: - DD']</entry>
+	<entry key="flybackYYY_xpath">//input[@type='text' and @aria-label='Fly back: - YYYY']</entry>
+	
+	<entry key="from2_xpath">//input[@class='core-input ng-valid ng-empty ng-dirty ng-valid-parse ng-touched']</entry>
+	<entry key="from1_xpath">//input[@class='core-input ng-pristine ng-untouched ng-valid ng-not-empty']</entry>
+	
+	<entry key="ddhandle_xpath">//core-icon[@class='chevron']/div</entry>
+	<entry key="glphsClosebtn_xpath">//div[@class='cookie-popup__close-btn']</entry>
+	
+	<entry key="pricefrombtn_xpath">//div[(@class='flight-header__min-price hide-mobile')]//following-sibling::div[@class='core-btn-primary']</entry>
+	
+	<entry key="standardfarebtn_xpath">//span[@class='hide-mobile' and contains(text(),'Standard fare')]</entry>
+	
+	<entry key="contin_xpath">//button[@class='core-btn-primary core-btn-block core-btn-medium']</entry>
+	
+	
+	
+	<entry key="okbtn_xpath">//div[@class='seat-map-prompt-content']/button[@class='core-btn-primary same-seats']</entry>
+	
+	
+	<entry key="adults_xpath">//div[@class='label' and contains(text(), 'Adults')]//parent::div[@class='details-label']//following-sibling::div[@class='details-controls']//button[@class='core-btn inc core-btn-wrap']</entry>
+	<entry key="continuebtn_xpath">//button[@class='core-btn-primary core-btn-block core-btn-big']</entry>
+	
+	<entry key="children_xpath">//div[@class='label' and contains(text(), 'Children')]//parent::div[@class='details-label']//following-sibling::div[@class='details-controls']//button[@class='core-btn inc core-btn-wrap']</entry>
+	<entry key="teens_xpath">//div[@class='label' and contains(text(), 'Teens')]//parent::div[@class='details-label']//following-sibling::div[@class='details-controls']//button[@class='core-btn inc core-btn-wrap']</entry>
+	<entry key="infants_xpath">//div[@class='label' and contains(text(), 'Infants')]//parent::div[@class='details-label']//following-sibling::div[@class='details-controls']//button[@class='core-btn inc core-btn-wrap']</entry>
+	<entry key="letsgobttn_xpath">//span[@translate='common.buttons.lets_go']</entry>
+	<entry key="priceheader_xpath">//span[@class='flights-table-price__header' and contains(text(), 'from')]//following-sibling::span[@class='flights-table-price__price']</entry>
+	<entry key="standardfare_xpath">//span[text()='Standard fare']</entry>
+	<entry key="continueBtn_xpath">//button[@id='continue']</entry>
+	<entry key="OkgotIt_xpath">//button[text()='Ok, got it!']</entry>
+	<entry key="NoThanks_xpath">//span[text()='No, thanks']</entry>
+	<entry key="ReviewSeats_xpath">//span[text()='Review Seats']</entry>
+	<entry key="Confirm_xpath">//span[text()='Confirm']</entry>
+	<entry key="NoThanks_xpath">//button[text()='No thanks']</entry>
+	<entry key="CheckOut_xpath">//span[text()='Check out']</entry>
+	<entry key="Title_xpath">//select[@name='title6619']</entry>
+	
+	
+	
+	<entry key="seattble_xpath">.//div[@class='seat-map-rows']</entry>
+	
+	
+	
+
+</properties>
